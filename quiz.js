@@ -5,11 +5,11 @@ function checkAnswer() {
 
     document.querySelector('quiz');
 
-    let userAnswer=userAnswerElement.value;
+   
+    let radioValue = document.querySelector('input[name="quiz"]:checked');
 
-    if (userAnswer===correctAnswer){
-        document.getElementById('feedback ').textContent="Correct! Well done.";
-    }else{
-        document.getElementById('feedback ').textContent="That's incorrect. Try again!";
-    }
-}
+   
+   
+
+
+
