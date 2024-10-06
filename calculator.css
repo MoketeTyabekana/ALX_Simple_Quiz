@@ -25,15 +25,6 @@ input[type="number"] {
   padding: 10px;
   width: 200px;
   font-size: 16px;
-  
-}
-
-button,input[type="number"]{
-    background-color: #006793;
-  border-radius: px;
-  font-weight: 600;
-  color: #fff;
-  border: none;
 }
 
 button {
@@ -41,7 +32,11 @@ button {
   margin: 5px;
   font-size: 16px;
   cursor: pointer;
-  
+  background-color: #006793;
+  border-radius: 5px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
 }
 
 button:focus ,input:focus{
